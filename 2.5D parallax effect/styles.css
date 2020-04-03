@@ -12,6 +12,7 @@ header {
   position: relative;
   color: white;
   font-family: sans-serif;
+  z-index: -1;
 }
 
 .intro-text {
