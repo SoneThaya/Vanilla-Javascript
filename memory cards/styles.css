@@ -70,6 +70,7 @@ h1 button {
   left: 0;
   height: 100%;
   width: 100%;
+  transform: translateX(50%);
 }
 
 .card.active {
