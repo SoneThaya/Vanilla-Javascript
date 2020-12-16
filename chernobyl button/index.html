@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="label">A3-5</div>
+    <div class="button-wrap">
+      <div class="cover-wrap">
+        <div class="hinge">
+          <div class="bolt"></div>
+          <div class="bolt"></div>
+        </div>
+        <div class="glass-wrap">
+          <div class="glass"></div>
+        </div>
+      </div>
+      <div class="frame">
+        <div class="inner-frame">
+            <div class="button"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementsByClassName("cover-wrap")[0].addEventListener("click", function(){
+        if(this.classList.contains("active")) {
+          this.classList.remove("active");
+        }
+        else this.classList.add("active");
+      });
+    </script>
+  </body>
+</html>
