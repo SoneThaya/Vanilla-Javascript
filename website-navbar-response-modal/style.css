@@ -1,8 +1,13 @@
+@import url("content.css");
+@import url("modal.css");
+
 :root {
   --darkgray: #212329;
+  --lightgray: #b1b1b1;
   --brightred: #f9423d;
   --white: #fff;
   --lightred: #e27975;
+  --lightblue: #337af1;
 }
 
 * {

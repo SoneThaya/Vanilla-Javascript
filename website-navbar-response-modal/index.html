@@ -32,6 +32,83 @@
       </nav>
     </div>
 
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Skyrocket your results</h1>
+          <p>
+            luxco allows you to fully automate your business so you can focus on
+            what's important!
+          </p>
+          <button class="main__btn"><a href="#">Get Started</a></button>
+        </div>
+        <div class="main__img_container">
+          <img id="main__img" src="./images/space.svg" alt="main logo" />
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="email__modal">
+      <div class="modal__content">
+        <span class="close__btn">&times;</span>
+        <div class="modal__content__left">
+          <img id="modal__img" src="./images/upgrade.svg" alt="upgrade" />
+        </div>
+        <div class="modal__content__right">
+          <form action="/" method="GET" class="modal__form" id="form">
+            <h1>
+              Get started with us today! Create your account by filling out the
+              information below.
+            </h1>
+            <div class="form__validation">
+              <input
+                type="text"
+                class="modal__input"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form__validation">
+              <input
+                type="email"
+                class="modal__input"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form__validation">
+              <input
+                type="password"
+                class="modal__input"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form__validation">
+              <input
+                type="password"
+                class="modal__input"
+                id="password-confirm"
+                name="password"
+                placeholder="Confirm password"
+              />
+              <p>Error Message</p>
+            </div>
+            <input type="submit" class="modal__input__btn" value="Sign Up" />
+            <span class="modal__input__login"
+              >Already have an account? Login <a href="#">here</a></span
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
